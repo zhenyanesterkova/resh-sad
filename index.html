@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Resharium</title>
+</head>
+
+<body>
+    <header class="page-header">
+        <a href="/" class="logo-link">
+            <img src="img/logo.png" alt="Логотип" class="header-logo">
+        </a>
+        <div class="header-excursion">
+            <img src="img/house.png" alt="Здание" class="header-img">
+            <h3 class="header-div-head">Запишитесь на экскурсию</h3>
+            <a href="#" class="header-link-open-form">Записаться</a>
+        </div>
+        <div class="header-operating-mode">
+            <svg class="header-icon">
+                <use xlink:href="img/icons.svg#clock"></use>
+            </svg>
+            <h3 class="header-div-head">Режим работы</h3>
+            <p class="header-div-text">Пн-Пт: 08:00-20:00</p>
+            <p class="header-div-text">Сб-Вс: 10:00-18:00</p>
+        </div>
+        <div class="header-address">
+            <svg class="header-icon">
+                <use xlink:href="img/icons.svg#placeholder"></use>
+            </svg>
+            <h3 class="header-div-head">Адрес</h3>
+            <p class="header-div-text">Светлогорский 13 усадьба Братцево (главное здание)</p>
+
+        </div>
+        <div class="header-connection">
+            <div class="connection-about">
+                <p class="connection-about-text">Закажите обратный звонок и наш менеджер перезвонит Вам</p>
+            </div>
+            <a href="tel:+7(495)230-23-86" class="header-phone-number">+7 (495) 230-23-86</a>
+            <a href="#" class="header-link-open-form">Заказать обратный звонок</a>
+        </div>
+    </header>
+    <div class="header-modal">
+        <form action="#" class="header-modal-form">
+            <h3 class="header-modal-head">Запись на экскурсию</h3>
+            <input type="text" class="header-modal-input" placeholder="Ваше имя">
+            <input type="tel" class="header-modal-input" placeholder="Ваш телефон">
+            <input type="number" class="header-modal-input" placeholder="Возраст ребенка">
+            <input type="date" class="header-modal-input" placeholder="Планируемая дата">
+        </form>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
