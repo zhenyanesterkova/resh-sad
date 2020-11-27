@@ -44,29 +44,14 @@ body {
     margin-right: 0.625em;
 }
 
-.header-operating-mode {
-    width: 100%;
-    margin-bottom: 0.625em;
-}
-
-.header-address {
-    width: 100%;
-    margin-bottom: 0.625em;
-}
-
 .header-div-text {
     font-size: 1em;
-    margin-left: 2.1875em;
-    margin-bottom: 0.5em;
-    margin-top: 0;
     line-height: 1.4;
 }
 
 .header-icon {
     width: 1.875em;
     height: 1.875em;
-    float: left;
-    margin-right: 0.3125em;
 }
 
 .header-div-head {
@@ -124,6 +109,28 @@ body {
     transition: 0.3s;
 }
 
+.header-link-p {
+    margin-top: 0.625em;
+    display: none;
+}
+
+.header-contacts-table {
+    font-size: 1.2rem;
+    margin: 1.5em 0;
+}
+
+.header-contacts-table th {
+    text-align: left;
+}
+
+.header-contacts-table td {
+    width: 10.6em;
+}
+
+.header-contacts-table .header-td-svg {
+    width: 1.875em;
+}
+
 .header-modal {
     width: 100vw;
     height: 100vh;
@@ -132,11 +139,7 @@ body {
     left: 0;
     top: 0;
     z-index: 999;
-
- 
-
     display: none;
-
 }
 
 @media (min-width: 375px) {
@@ -145,11 +148,14 @@ body {
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .header-operating-mode {
-        width: 45%;
+    .header-excursion {
+        display: none;
     }
-    .header-address {
-        width: 45%;
+    .header-contacts-table {
+        font-size: 1.6rem;
+    }
+    .header-link-p {
+        display: block;
     }
 }
 
@@ -157,22 +163,11 @@ body {
     .logo-link {
         width: 5em;
     }
-    .header-excursion {
-        width: 16em;
-    }
     .header-connection {
         width: 15.625em;
     }
-    .header-address {
-        order: 2;
-        width: 40%;
-    }
-    .header-operating-mode {
-        order: 1;
-        width: 40%;
-    }
-    .header-img {
-        float: left;
+    .header-contacts-table td {
+        width: 12.6em;
     }
 }
 
@@ -183,13 +178,15 @@ body {
     .page-header {
         flex-wrap: nowrap;
     }
-    .header-address {
-        order: 0;
-        width: 13em;
+    .header-excursion {
+        width: 16em;
+        display: block;
     }
-    .header-operating-mode {
-        order: 0;
-        width: 13.33em;
+    .header-img {
+        float: left;
+    }
+    .header-contacts-table td {
+        width: 8.6em;
     }
     .header-connection {
         text-align: left;
@@ -200,11 +197,17 @@ body {
     .header-phone-number {
         margin: 0;
     }
+    .header-link-p {
+        display: none;
+    }
 }
 
 @media (min-width: 1200px) {
     body {
         font-size: 1.65rem;
+    }
+    .header-contacts-table td {
+        width: 13.6em;
     }
 }
 

@@ -1,10 +1,10 @@
 <svg width="0" height="0" class="hidden">
-  <symbol fill="#FF33FF" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="clock">
+  <symbol fill="#00A0E6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="clock">
     <path d="M7.5 1A6.51 6.51 0 001 7.5 6.51 6.51 0 007.5 14 6.51 6.51 0 0014 7.5 6.51 6.51 0 007.5 1zm0 1C10.543 2 13 4.457 13 7.5S10.543 13 7.5 13A5.493 5.493 0 012 7.5C2 4.457 4.457 2 7.5 2zM7 3v5h3V7H8V3z"></path>
   </symbol>
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="placeholder">
     <title></title>
-    <path d="M26.5 12.5C26.5 18.3 16 30 16 30S5.5 18.3 5.5 12.5a10.5 10.5 0 0121 0z" stroke="#FF33FF" fill="#FF33FF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-    <circle cx="16" cy="11.8" r="7" stroke="#FF33FF" fill="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle>
+    <path d="M26.5 12.5C26.5 18.3 16 30 16 30S5.5 18.3 5.5 12.5a10.5 10.5 0 0121 0z" stroke="#00A0E6" fill="#00A0E6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+    <circle cx="16" cy="11.8" r="7" stroke="#00A0E6" fill="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle>
   </symbol>
 </svg>

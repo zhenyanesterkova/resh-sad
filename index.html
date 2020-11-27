@@ -20,28 +20,42 @@
             <h3 class="header-div-head">Запишитесь на экскурсию</h3>
             <a href="#" class="header-link-open-form">Записаться</a>
         </div>
-        <div class="header-operating-mode">
-            <svg class="header-icon">
-                <use xlink:href="img/icons.svg#clock"></use>
-            </svg>
-            <h3 class="header-div-head">Режим работы</h3>
-            <p class="header-div-text">Пн-Пт: 08:00-20:00</p>
-            <p class="header-div-text">Сб-Вс: 10:00-18:00</p>
-        </div>
-        <div class="header-address">
-            <svg class="header-icon">
-                <use xlink:href="img/icons.svg#placeholder"></use>
-            </svg>
-            <h3 class="header-div-head">Адрес</h3>
-            <p class="header-div-text">Светлогорский 13 усадьба Братцево (главное здание)</p>
-
-        </div>
+        <table class="header-contacts-table">
+            <tr>
+                <td rowspan="2" class="header-td-svg">
+                    <svg class="header-icon">
+                        <use xlink:href="img/icons.svg#clock"></use>
+                    </svg>
+                </td>
+                <th>
+                    <h3 class="header-div-head">Режим работы</h3>
+                </th>
+                <td rowspan="2" class="header-td-svg">
+                    <svg class="header-icon">
+                        <use xlink:href="img/icons.svg#placeholder"></use>
+                    </svg>
+                </td>
+                <th>
+                    <h3 class="header-div-head">Адрес</h3>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <p class="header-div-text">Пн-Пт: 08:00-20:00<br>Сб-Вс: 10:00-18:00</p>
+                </td>
+                <td>
+                    <p class="header-div-text">Светлогорский 13 усадьба Братцево (главное здание)</p>
+                </td>
+            </tr>
+        </table>
         <div class="header-connection">
             <div class="connection-about">
                 <p class="connection-about-text">Закажите обратный звонок и наш менеджер перезвонит Вам</p>
             </div>
             <a href="tel:+7(495)230-23-86" class="header-phone-number">+7 (495) 230-23-86</a>
-            <a href="#" class="header-link-open-form">Заказать обратный звонок</a>
+            <p><a href="#" class="header-link-open-form">Заказать обратный звонок</a></p>
+            <p class="header-link-p"><a href="#" class="header-link-open-form connection-exc-link">Запишитесь на
+                    экскурсию</a></p>
         </div>
     </header>
     <div class="header-modal">
